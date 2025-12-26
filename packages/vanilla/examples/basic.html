@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مثال بسيط على استخدام Palestine Footer">
+    <title>🇵🇸 Palestine Footer - مثال بسيط</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #008000 0%, #005a00 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 60px 40px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section h2 {
+            color: #008000;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #008000;
+            padding-bottom: 10px;
+        }
+        
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .feature-card {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .feature-card .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .feature-card h3 {
+            color: #008000;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .feature-card p {
+            color: #666;
+            font-size: 1em;
+        }
+        
+        .code-section {
+            background: #1a1a1a;
+            color: #4ade80;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            overflow-x: auto;
+        }
+        
+        .code-section pre {
+            margin: 0;
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffe5a0 100%);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid #ffc107;
+            margin: 30px 0;
+        }
+        
+        .highlight h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+        
+        .highlight p {
+            color: #333;
+            margin: 0;
+        }
+        
+        .spacer {
+            height: 400px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 50px 0;
+            gap: 20px;
+        }
+        
+        .spacer h2 {
+            font-size: 2.5em;
+            color: #008000;
+            margin: 0;
+        }
+        
+        .spacer p {
+            font-size: 1.3em;
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1em;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🇵🇸 Palestine Footer</h1>
+            <p>مثال بسيط على استخدام التذييل</p>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📖 نظرة عامة</h2>
+                <p>
+                    هذا مثال بسيط يوضح كيفية استخدام <strong>Palestine Footer</strong> في موقعك.
+                    التذييل سيظهر تلقائياً في أسفل الصفحة بمجرد إضافة السكريبت.
+                </p>
+                <p>
+                    المكون خفيف جداً (أقل من 2KB) ولا يحتاج إلى أي مكتبات خارجية.
+                    كل ما عليك فعله هو نسخ سطر واحد من الكود!
+                </p>
+            </div>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>سريع وخفيف</h3>
+                    <p>أقل من 2KB فقط</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">🎨</div>
+                    <h3>تصميم جميل</h3>
+                    <p>ألوان فلسطينية مميزة</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">📱</div>
+                    <h3>Responsive</h3>
+                    <p>يعمل على كل الشاشات</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">🔧</div>
+                    <h3>سهل الاستخدام</h3>
+                    <p>نسخ ولصق فقط</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>💻 الكود المستخدم</h2>
+                <p>هذا هو الكود الذي استخدمناه في هذه الصفحة:</p>
+                
+                <div class="code-section">
+                    <pre>&lt;!-- ضع هذا السطر قبل إغلاق &lt;/body&gt; --&gt;
+&lt;script src="../src/palestine-footer.js"&gt;&lt;/script&gt;</pre>
+                </div>
+                
+                <p>
+                    <strong>وخلاص!</strong> 🎉 التذييل سيظهر تلقائياً في أسفل الصفحة.
+                </p>
+            </div>
+            
+            <div class="highlight">
+                <h3>💡 ملاحظة مهمة</h3>
+                <p>
+                    التذييل يأخذ <strong>السنة الحالية</strong> و<strong>اسم الموقع</strong> تلقائياً
+                    من النظام، لذلك لا تحتاج لتعديل أي شيء!
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2>🌐 استخدام CDN</h2>
+                <p>يمكنك أيضاً استخدام CDN بدلاً من تحميل الملف:</p>
+                
+                <div class="code-section">
+                    <pre>&lt;script src="https://cdn.jsdelivr.net/gh/YOUR_USERNAME/palestine-footer@main/packages/vanilla/src/palestine-footer.js"&gt;&lt;/script&gt;</pre>
+                </div>
+            </div>
+            
+            <div class="spacer">
+                <h2>⬇️</h2>
+                <h2>اسكرول للأسفل</h2>
+                <p>لترى التذييل في الأسفل</p>
+            </div>
+            
+            <div class="section">
+                <h2>📚 المزيد من الأمثلة</h2>
+                <p>تحقق من الأمثلة الأخرى:</p>
+                <ul style="font-size: 1.2em; line-height: 2; color: #333;">
+                    <li><a href="custom.html" style="color: #008000;">مثال مخصص</a> - تخصيص الألوان والمحتوى</li>
+                    <li><a href="cdn.html" style="color: #008000;">مثال CDN</a> - استخدام CDN</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Palestine Footer - الكود الوحيد المطلوب! -->
+    <script src="../src/palestine-footer.js"></script>
+</body>
+</html>
