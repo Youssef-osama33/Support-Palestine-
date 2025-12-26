@@ -248,14 +248,6 @@ MIT License - يمكنك استخدام هذا الكود بحرية في أي �
 
 ---
 
-## 📊 إحصائيات | Stats
-
-![Size](https://img.shields.io/badge/size-2KB-blue.svg)
-![Downloads](https://img.shields.io/npm/dm/palestine-footer-vanilla.svg)
-![Version](https://img.shields.io/npm/v/palestine-footer-vanilla.svg)
-
----
-
 ## 💬 الدعم | Support
 
 هل تحتاج مساعدة؟
