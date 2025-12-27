@@ -1,0 +1,68 @@
+{
+    "name": "youssef-osama/palestine-footer-laravel",
+    "description": "🇵🇸 Palestine Footer Component for Laravel - Show solidarity with Palestine",
+    "keywords": [
+        "laravel",
+        "palestine",
+        "footer",
+        "blade",
+        "component",
+        "solidarity",
+        "palestine-support"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusuf Osama",
+            "email": "your-email@example.com",
+            "homepage": "https://your-website.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/Youssef-osama33/Support-Palestine-",
+    "support": {
+        "issues": "https://github.com/Youssef-osama33/Support-Palestine-/issues",
+        "source": "https://github.com/Youssef-osama33/Support-Palestine-"
+    },
+    "require": {
+        "php": "^8.0|^8.1|^8.2|^8.3",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/view": "^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.5|^10.0",
+        "mockery/mockery": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "YousefOsama\\PalestineFooter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YousefOsama\\PalestineFooter\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YousefOsama\\PalestineFooter\\PalestineFooterServiceProvider"
+            ],
+            "aliases": {
+                "PalestineFooter": "YousefOsama\\PalestineFooter\\Facades\\PalestineFooter"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
